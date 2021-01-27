@@ -1,0 +1,16 @@
+body {
+    transition: background-color 1s linear;
+}
+
+.text {
+    transition: color 1s linear;
+}
+
+.back-button span:after {
+    content: '!';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}

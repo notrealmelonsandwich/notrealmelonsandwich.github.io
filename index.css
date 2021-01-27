@@ -34,7 +34,11 @@ td {
     font-weight: bold;
 }
 
-button {
+button:focus {
+    outline: 0;
+}
+
+.back-button {
     text-align: center;
     background-color: #d44436;
     font-size: 22px;
@@ -49,13 +53,13 @@ button {
     cursor: pointer;
 }
 
-button span {
+.back-button span {
     display: inline-block;
     position: relative;
     transition: 0.3s;
 }
 
-button span:after {
+.back-button span:after {
     content: '«';
     position: absolute;
     opacity: 0;
@@ -64,16 +68,16 @@ button span:after {
     transition: 0.3s;
 }
 
-button:hover span {
+.back-button:hover span {
     padding-right: 25px;
 }
 
-button:hover span:after {
+.back-button:hover span:after {
     opacity: 1;
     right: 0;
 }
 
-button:hover {
+.back-button:hover {
     background-color: hsl(5, 100%, 60%);
     border-radius: 10px;
 }
