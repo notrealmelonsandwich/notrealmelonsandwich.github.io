@@ -1,0 +1,15 @@
+.links #header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.schedules li p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#teachers-link p {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: normal;
+}

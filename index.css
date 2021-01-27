@@ -1,0 +1,129 @@
+body {
+    margin-bottom: 100px;
+}
+
+p {
+    font-family: "Osnova Pro";
+}
+
+h1 {
+    font-family: "Osnova Pro";
+    font-weight: bold;
+}
+
+a {
+    color: #d44436;
+    line-height: 10px;
+}
+
+li {
+    line-height: 0px;
+}
+
+table {
+    padding-right: 70%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    font-family: "Osnova Pro";
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+button {
+    text-align: center;
+    background-color: #d44436;
+    font-size: 22px;
+    font-family: "Osnova Pro";
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: none;
+    transition: all 0.3s;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+button span:after {
+    content: '«';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+button:hover {
+    background-color: hsl(5, 100%, 60%);
+    border-radius: 10px;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    margin-right: 10px;
+    display: block;
+}
+
+.header p {
+    margin: 0;
+    margin-top: 19px;
+    font-weight: bold;
+    font-size: 46pt;
+    letter-spacing: -1px;
+}
+
+.nostyle li {
+    list-style-type: none;
+}
+
+::selection {
+    color: white;
+    background: #D44436;
+}
+
+#footer {
+    background-color: rgb(87, 87, 87);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#footer p {
+    margin-right: 10px;
+    color: rgb(179, 179, 179);
+    float: right;
+
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
