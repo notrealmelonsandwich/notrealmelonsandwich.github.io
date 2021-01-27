@@ -40,6 +40,14 @@
     line-height: 12px;
 }
 
+.back-button-container {
+    display: flex;
+}
+
+.back-button {
+    justify-content: center;
+}
+
 .cover {
     object-fit: cover;
 }
