@@ -29,15 +29,12 @@
     font-weight: bold;
     font-size: 17pt;
     margin: 0px;
-    line-height: 25px;
+    margin-bottom: 3px;
+    line-height: 21px;
 }
 
 .teacher-subject {
     margin: 0px;
-}
-
-.teacher-subject p {
-    line-height: 11px;
 }
 
 .back-button-container {

@@ -78,6 +78,10 @@ button:hover {
     border-radius: 10px;
 }
 
+.text {
+    color: #d44436
+}
+
 .content {
     margin-left: 20px;
 }
