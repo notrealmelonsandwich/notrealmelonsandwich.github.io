@@ -1,7 +1,8 @@
 #teacher-container {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(4, 0.15fr);
+    grid-template-columns: repeat(4, 0.16fr);
+    justify-content: center;
 }
 
 .teacher-img {
@@ -39,6 +40,6 @@
     line-height: 12px;
 }
 
-.dab {
+.cover {
     object-fit: cover;
 }
