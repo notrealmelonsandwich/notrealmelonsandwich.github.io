@@ -6,6 +6,10 @@ body {
     transition: color 1s linear;
 }
 
+.back-button span {
+    
+}
+
 .back-button span:after {
     content: '!';
     position: absolute;
@@ -13,4 +17,8 @@ body {
     top: 0;
     right: -20px;
     transition: 0.3s;
+}
+
+.back-button span:hover {
+    content: 'bruh';
 }
