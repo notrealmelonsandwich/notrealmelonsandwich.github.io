@@ -22,7 +22,6 @@
 .teacher-cell p {
     text-align: center;
     display: block;
-    line-height: 23px;
 }
 
 .teacher-name {
@@ -30,6 +29,7 @@
     font-weight: bold;
     font-size: 17pt;
     margin: 0px;
+    line-height: 25px;
 }
 
 .teacher-subject {
@@ -37,7 +37,7 @@
 }
 
 .teacher-subject p {
-    line-height: 12px;
+    line-height: 11px;
 }
 
 .back-button-container {
